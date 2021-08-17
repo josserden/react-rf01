@@ -1,0 +1,9 @@
+.Statistics__list {
+    font-size: 20px;
+    font-weight: semi-bold;
+    margin-bottom: 5px;
+}
+
+.Statistics__list:last-of-type {
+    margin-bottom: 0;
+}

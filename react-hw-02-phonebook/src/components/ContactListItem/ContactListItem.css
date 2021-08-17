@@ -1,0 +1,45 @@
+.ContactListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.ContactListItem:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.ContactListItem-text {
+    margin: 0;
+    padding: 0;
+}
+
+.ContactListItem-text span {
+    margin: 0 15px;
+}
+
+.ContactListItem button {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.Button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 20px 0 0;
+    border: 2px solid #78788c;
+    border-radius: 5px;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Button:hover {
+    background: #78788c;
+    color: #fff;
+}

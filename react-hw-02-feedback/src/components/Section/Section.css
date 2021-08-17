@@ -1,0 +1,21 @@
+.Section {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    max-width: 70%;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+
+.Section:last-of-type {
+    margin-bottom: 0;
+}
+
+.Title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2;
+}
