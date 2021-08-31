@@ -11,4 +11,4 @@ const fetchImg = ({ searchQuery, currentPage = 1, perPage = 12 }) => {
         .then(res => res.data.hits);
 };
 
-export default { fetchImg };
+export default fetchImg;
